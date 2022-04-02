@@ -1,24 +1,31 @@
-# Project Title
+# Enhance Loan Qualifier Application 
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+At a recent meeting with the Business Operations team to dicuss creating additional useful features for the current Loan Qualifier Application, I'm trying to prompt our user to save the qualifying loans as a new CSV file. 
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+Python 3.7 
+Fire 0.4.0
+Questionary 1.10.0
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+1. Open terminal 
+2. Go to loan_qualifier_app directory 
+3. Type "pip - v" to look for current version of pop that's installed 
+4. Type "pip install fire" to install fire package
+5. Type "pip install questionary" to install questionary package 
+6. Type "pip freeze" to confirm a list of all the currently installed packages 
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+
 
 ---
 

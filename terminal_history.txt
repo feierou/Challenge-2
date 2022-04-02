@@ -1,0 +1,50 @@
+  465  cd CU-VIRT-FIN-PT-03-2022-U-B/
+  466  git pull
+  467  cd desktop
+  468  cd git
+  469  cd CU-VIRT-FIN-PT-03-2022-U-B/
+  470  ls
+  471  cd 03-Financial-Analysis-Pandas/ls
+  472  conda activate dev
+  473  jupyter lab
+  474  cd desktop
+  475  cd 01_Visualize_the_VIX/
+  476  conda activate dev
+  477  jupyter lab
+  478  cd ..
+  479  cd 02_Rowing_for_Yield/
+  480  jupyter lab
+  481  cd desktop
+  482  cd Challenge-2/
+  483  ls
+  484  cd Starter_Code/
+  485  ls
+  486  cd loan_qualifier_app/
+  487  ls
+  488  conda activate dev
+  489  python app.py
+  490  python app.py
+  491  python app.pu
+  492  python app.py
+  493  python app.py
+  494  python app.py
+  495  python app.py
+  496  python app.py
+  497  python app.py
+  498  python app.py
+  499  cd desktop
+  500  cd Challenge-2/
+  501  ls
+  502  cd Starter_Code/
+  503  ls
+  504  cd loan_qualifier_app/
+  505  ls
+  506  conda activate dev
+  507  python app.py
+  508  pip --v
+  509  pip --version
+  510  conda env list
+  511  pip list --format=freeze 
+  512  cd ..
+  513  cd ..
+  514  history 50 > terminal_history.txt

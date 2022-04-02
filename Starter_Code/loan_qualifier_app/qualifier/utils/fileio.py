@@ -6,6 +6,8 @@ This contains a helper function for loading and saving CSV files.
 """
 import csv
 
+from pyparsing import delimited_list
+
 
 def load_csv(csvpath):
     """Reads the CSV file from path provided.
@@ -28,3 +30,11 @@ def load_csv(csvpath):
         for row in csvreader:
             data.append(row)
     return data
+
+def save_csv(csvpath, data, header=None):
+    
+    with open(csvpath, 'w', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile, delimiter=',')
+        if header:
+            csvwriter.writerow(header)
+        csvwriter.writerows(data)
